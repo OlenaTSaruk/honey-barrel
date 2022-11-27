@@ -1,0 +1,123 @@
+html {
+   box-sizing: border-box;
+}
+*, *::after, *::before {
+   box-sizing: inherit;
+}
+a {
+   text-decoration: none;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+   margin: 0;
+}
+.container {
+   max-width: 1430px;
+   margin: 0 auto;
+}
+:root {
+   --accent-color: #7E4500;
+   --title-color: #955100;
+   --text-color: #CE8228;
+   --glow-color: #FFD600;
+   --text-inversion-color: #fff;
+   --gradient: linear-gradient(180deg, rgba(135,74,0,1) 0%, rgba(192,106,4,1) 100%)
+}
+.text-h1 {
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 800;
+   font-size: 50px;
+   line-height: 190.4%;
+   /* or 95px */
+   letter-spacing: 0.04em;
+   background: linear-gradient(180deg, #7E4500 62.73%, #7E4500 62.73%, #C06A04 136.36%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   /* text-fill-color: transparent; */
+}
+.p-header {
+   font-family: 'Montserrat ', sans-serif;
+   font-weight: regular;
+   font-size: 40px;
+   color: var(--text-inversion-color);
+}
+.title-h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: medium;
+   font-size: 25px;
+}
+.name-h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: regular;
+   font-size: 25px;
+}
+.text-h3 {
+   font-family: 'PT Sans', sans-serif;
+   font-weight: regular;
+   font-size: 25px;
+}
+.text-h4 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: regular;
+   font-size: 20px;
+}
+.text-menu-h5 {
+   font-family: 'PT Sans', sans-serif;
+   font-weight: regular;
+   font-size: 20px;
+   color: var(--accent-color);
+}
+.text-btn-h6 {
+   font-family: 'PT Sans', sans-serif;
+   font-weight: regular;
+   font-size: 40px;
+   color: var(--text-inversion-color);
+}
+
+.header {
+   min-height: 940px;
+}
+.header__nav {
+   display: flex;
+   /* justify-content: space-between; */
+   align-items: center;
+}
+.header-content {
+   margin: 0 auto;
+   min-height: 774px;
+   background-image: url(../img/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.logo {
+   margin-left: -48px;
+}
+.social {
+   margin-right: 128px;
+   padding-left: 128px;
+}
+.social-ikon {
+}
+.menu-item {
+   margin-right: 52px;
+}
+.basked {
+}
+
+.header__content {
+   padding-top: 273px;
+}
+.h1 {
+   margin-top: 0;
+}
+.p {
+
+}
+.button {
+}
+
+.footer {
+   background-color: var(--accent-color);
+}
